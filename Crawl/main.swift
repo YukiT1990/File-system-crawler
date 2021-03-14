@@ -39,8 +39,5 @@ func printDirectoryURL(path: URL, prefix: String) {
 if fileManager.fileExists(atPath: path, isDirectory: nil) == true {
     print(path)
     printDirectoryURL(path: pathURL!, prefix: "")
-    // for checking
-//    let filePathURL = URL(fileURLWithPath: "/Users/yuki.t/Desktop/Swift_X-code")
-//    printDirectoryURL(path: filePathURL, prefix: "")
 }
 
